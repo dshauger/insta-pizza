@@ -20,15 +20,15 @@ myStore.getFriendlyNames(
 )
 
 // Setup your Customer
-var myCustomer = new pizzapi.Customer(
-    {
-        firstName: 'Barack',
-        lastName: 'Obama',
-        address: myAddress,
-        phone: '1238675309',
-        email: 'barack@whitehouse.gov'
-    }
-);
+// var myCustomer = new pizzapi.Customer(
+//     {
+//         firstName: 'Barack',
+//         lastName: 'Obama',
+//         address: myAddress,
+//         phone: '1238675309',
+//         email: 'barack@whitehouse.gov'
+//     }
+// );
 
 // function orderDominos(event, context) {
 //   var clickType = event.clickType;
