@@ -1,0 +1,25 @@
+{
+  "name": "dominos-lambda",
+  "version": "1.0.0",
+  "description": "Pizza Order App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madison-Ehlers/dominos-lambda.git"
+  },
+  "keywords": [
+    "pizza"
+  ],
+  "author": "Madison Ehlers <mjeehlers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madison-Ehlers/dominos-lambda/issues"
+  },
+  "homepage": "https://github.com/Madison-Ehlers/dominos-lambda#readme",
+  "dependencies": {
+    "dominos": "2.1.0"
+  }
+}
