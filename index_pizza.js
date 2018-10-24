@@ -4,13 +4,7 @@ const util = require('util');
 
 const handTossedAllMeatPizzaCode = '14SCMEATZA';
 
-// pizzapi.Util.findNearbyStores(
-//     '2002 27th Street, Des Moines, IA, 50310',
-//     'Delivery',
-//     function(storeData){
-//         console.log(util.inspect(storeData, false, null, true));
-//     }
-// );
+
 const options = { ID: 1714};
 var myStore = new pizzapi.Store(options);
 
