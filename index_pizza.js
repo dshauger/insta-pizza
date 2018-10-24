@@ -25,16 +25,6 @@ myStore.getFriendlyNames(
   }
 )
 
-// Setup your Address
-var myAddress = new pizzapi.Address(
-        {
-            Street: '2002 27th Street',
-            City: 'Des Moines',
-            Region: 'IA',
-            PostalCode: '50310'
-        }
-    );
-
 // Setup your Customer
 var myCustomer = new pizzapi.Customer(
     {
@@ -45,18 +35,6 @@ var myCustomer = new pizzapi.Customer(
         email: 'barack@whitehouse.gov'
     }
 );
-
-// Setup your Credit Card Info
-var cardNumber='4100123422343234';// Valid but fake credit card
-// var cardInfo = new pizzapi.order.PaymentObject();
-// cardInfo.Amount = order.Amounts.Customer;
-// cardInfo.Number = cardNumber;
-// cardInfo.CardType = order.validateCC(cardNumber);
-// cardInfo.Expiration = '0115';//  01/15 just the numbers "01/15".replace(/\D/g,'');
-// cardInfo.SecurityCode = '777';
-// cardInfo.PostalCode = '90210'; // Billing Zipcode
-//
-// order.Payments.push(cardInfo);
 
 // function orderDominos(event, context) {
 //   var clickType = event.clickType;
